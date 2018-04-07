@@ -17,7 +17,9 @@ class ViewController: UIViewController {
 
     @IBAction func butq(_ sender: Any) {
         print("This is a Git tutorial")
+        self.view.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
